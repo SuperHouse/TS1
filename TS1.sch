@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.2.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -2100,16 +2100,16 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="20.32" size="3.048" layer="94">1-Channel Touch Pad</text>
+<text x="7.62" y="20.32" size="3.048" layer="94">1-Channel Touch Switch</text>
 <text x="38.1" y="14.478" size="1.778" layer="94">V1.0 (2018-11-20)</text>
 <text x="7.366" y="9.398" size="1.778" layer="94">(C) 2018 SuperHouse Automation Pty Ltd</text>
 <text x="7.366" y="6.35" size="1.778" layer="94">Released under the TAPR Open Hardware License: tapr.org/ohl</text>
-<text x="68.326" y="14.478" size="1.778" layer="94">www.superhouse.tv/tp1</text>
+<text x="68.326" y="14.478" size="1.778" layer="94">www.superhouse.tv/ts1</text>
 <frame x1="5.08" y1="12.7" x2="116.84" y2="25.4" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="35.56" y1="12.7" x2="66.04" y2="17.78" columns="8" rows="5" layer="94"/>
 <frame x1="5.08" y1="5.08" x2="116.84" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
-<text x="7.62" y="14.478" size="1.778" layer="94">SKU: TP1</text>
+<text x="7.62" y="14.478" size="1.778" layer="94">SKU: TS1</text>
 <text x="121.92" y="10.16" size="1.778" layer="97">C1 = 22nF for normal sensitivity. Decreased to also decrease sensitivity</text>
 <text x="121.92" y="7.62" size="1.778" layer="97">Value should be in the 2-50nF range</text>
 <text x="121.92" y="17.78" size="1.778" layer="97">Output is open-drain switched to GND. Max 60V 210mA.</text>

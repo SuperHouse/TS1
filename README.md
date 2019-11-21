@@ -1,6 +1,6 @@
 Touch Switch 1
 ==============
-Copyright 2018 SuperHouse Automation Pty Ltd  www.superhouse.tv  
+Copyright 2018-2019 SuperHouse Automation Pty Ltd  www.superhouse.tv  
 
 A simple single-channel touch switch controller with a switchmode
 power supply and a linear regulator, to allow operation or input

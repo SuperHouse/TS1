@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2566,12 +2566,12 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </class>
 </classes>
 <parts>
-<part name="C2" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="CAP" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/2" value="10uF"/>
+<part name="C2" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="CAP" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/2" value="100nF"/>
 <part name="IC1" library="microbuilder" deviceset="AT42QT1010/1" device="" value="AT42QT1010"/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="C1" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="CAP" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/2" value="2.2nF"/>
 <part name="R1" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/2" value="10K"/>
-<part name="C4" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="CAP" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/2" value="100nF"/>
+<part name="C4" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="CAP" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/2" value="10uF"/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$4" library="microbuilder" deviceset="VDD" device=""/>
 <part name="LED1" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:7066240/1" value="RED"/>
@@ -2601,8 +2601,8 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <sheet>
 <plain>
 <text x="7.62" y="20.32" size="3.048" layer="94">1-Channel Touch Switch</text>
-<text x="38.1" y="14.478" size="1.778" layer="94">V1.0 (2018-11-20)</text>
-<text x="7.366" y="9.398" size="1.778" layer="94">(C) 2018 SuperHouse Automation Pty Ltd</text>
+<text x="38.1" y="14.478" size="1.778" layer="94">V1.1 (2019-11-21)</text>
+<text x="7.366" y="9.398" size="1.778" layer="94">(C) 2018-2019 SuperHouse Automation Pty Ltd</text>
 <text x="7.366" y="6.35" size="1.778" layer="94">Released under the TAPR Open Hardware License: tapr.org/ohl</text>
 <text x="68.326" y="14.478" size="1.778" layer="94">www.superhouse.tv/ts1</text>
 <frame x1="5.08" y1="12.7" x2="116.84" y2="25.4" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
